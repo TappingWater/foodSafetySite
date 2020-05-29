@@ -1,4 +1,4 @@
-# CS4624 - Food Safety Website
+# Food Safety Website
 
 This is the repository for the CS4624 Food Safety Website Capstone Team. This README serves as a descriptor for project specifications.
 
