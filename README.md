@@ -2,6 +2,12 @@
 
 This is the repository for the CS4624 Food Safety Website Capstone Team. This README serves as a descriptor for project specifications.
 
+## Public Site
+http://fmfoodsafety.cs.vt.edu/
+
+## Archived Submission
+https://vtechworks.lib.vt.edu/handle/10919/98253
+
 ## Project Description
 We would like to design and develop a website that will be used by farmers market growers and vendors who do not fall under the Produce Safety Rule or Preventive Controls for Human Food Rule due to their farm size and annual revenue. We hope this mobile-friendly, easily interfaceable website can provide quick and pertinent information to these individuals. We would like for the information that a farmer can potentially get to be customizable and unique to that farmer. For example, if a farmer grows tomatoes on a farm and also has livestock (cows, chickens), this farmer can add or distinguish these characteristics into a form or part of the website and be given answers and resources depending on what keywords they have in their question.
 
@@ -12,8 +18,8 @@ We would like to design and develop a website that will be used by farmers marke
 * Zach Gehr - Presentation Lead, Front-End Developer
 
 ### Back-End Team
-* Kiel Lew - Lead Back-End Developer
-* Chanaka Perera - Report Lead, Back-End Developer
+* Chanaka Perera - Lead Back-End Developer
+* Kiel Lew - Report Lead, Back-End Developer
 * Mahek Mehta - Note-Taker, Back-End Developer
 
 ## Project Deliverables
