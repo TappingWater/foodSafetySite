@@ -1,0 +1,71 @@
+/* CSS for Home Page */
+
+/* CSS section for image carousel */
+
+.carousel-inner {
+  max-height: 600px;
+}
+
+.featureImg {
+  border-radius: 50%;
+  background-color: #E5E9F2;
+  max-width: 30%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.featureImg img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* CSS Section for features list */
+
+#featuresList {
+  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* For when the media screen is a smartphone */
+@media screen and (max-width: 899px) {
+  /* CSS section for features list */
+
+  #featuresList {
+    margin-bottom: 10%;
+  }
+
+  .columnFeature {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #B4BCC5;
+  }
+
+  .featureImg {
+    display: none;
+  }
+}
+
+/* For when the media screen is at least a tablet/small laptop */
+@media screen and (min-width: 900px) {
+  /* CSS Section for features list */
+
+  .columnFeature {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    margin-bottom: 30px;
+  }
+
+  .columnFeature h4 {
+    text-align: center;
+  }
+
+  .columnFeature h4 {
+    text-align: center;
+    padding: 15px;
+  }
+  .columnFeature p {
+    text-align: center;
+  }
+}

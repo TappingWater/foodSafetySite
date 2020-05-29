@@ -1,0 +1,49 @@
+/* CSS for FAQ page */
+
+/* CSS section for FAQ layout */
+
+#FAQGeneral {
+  margin-bottom: 25%;
+}
+#FAQGeneral h4 {
+  text-align: center;
+  padding: 20px;
+}
+
+#FAQQuestions {
+  max-width: 100%;
+}
+
+.widget {
+  text-align: center;
+}
+
+/* CSS section for accordion drop down menus */
+
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #008DD9;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 3rem;
+  content: "\f106";
+  color: #1f7de2;
+  float: right;
+  margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
+}

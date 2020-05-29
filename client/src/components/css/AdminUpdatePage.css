@@ -1,0 +1,126 @@
+.adminContainer {
+    width: 75%;
+    margin: auto;
+}
+
+.adminTable {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 500px;
+
+    border-collapse: collapse;
+    border: 1px solid black;
+    align-content: baseline;
+    text-align: left;
+}
+
+form {
+    align-content: center;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: papayawhip;
+}
+
+tr:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+th {
+    border: 1px solid black;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: #282c34;
+    color: white;
+}
+
+th.foodName {
+    width: 20%;
+}
+
+th.foodType {
+    width: 20%;
+}
+
+th.refLinks {
+    width: 40%;
+}
+
+th.editEntry {
+    width: 10%;
+    text-align: center;
+}
+
+th.deleteEntry {
+    width: 10%;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+td.button {
+    text-align: center;
+}
+
+ul {
+    padding-left: 0px;
+    margin-top: 15px;
+}
+
+.remRef {
+    background-color: #f44336;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.addRef {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.updateButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 1px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+.deleteButton {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 1px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+h3 {
+    margin-top: 15px;
+}
+
+.addItem {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+
+}

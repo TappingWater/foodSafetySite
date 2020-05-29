@@ -1,0 +1,8 @@
+{
+  "short_name": "Food Safety Site",
+  "name": "Food Safety Site for CS 4624",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

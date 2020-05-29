@@ -1,0 +1,331 @@
+/* Main CSS page used universally on all pages of site */
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: white;
+  color: #8492A6;
+  padding: 7px;
+}
+button:hover {
+  background-color: white;
+  color: #A6B3C5;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+/* CSS Section for splitting page into sections, to ensure page layout */
+
+#wholePage {
+  position: relative;
+  min-height: 100vh;
+}
+
+#contentWrap {
+  padding-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#bodySect {
+  color: #47525E;
+  max-width: 100%;
+  max-height: 60%;
+  margin: 0;
+  padding-bottom: 30px;
+  margin-bottom: 7%;
+}
+
+/* CSS Section for Title and navigation bar/menu */
+
+#titleBar {
+  background-color: #008DD9;
+  color: white;
+  max-width: 100%;
+  padding: 20px;
+}
+#titleBar h1 {
+  font-size: 40px;
+}
+
+#navBar {
+  font-size: 20px;
+  width: 100%;
+  display: inline-block;
+}
+
+
+#navBarRight {
+  float: right;
+  overflow: hidden;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+#navBar .icon {
+  display: none;
+}
+
+.navItem {
+  background-color: white;
+  color: #47525E;
+  padding: 10px 30px;
+  text-decoration: none;
+  float: left;
+}
+.navItem:hover {
+  background-color: #E5E9F2;
+  text-decoration: none;
+  transition-duration: 0.8s;
+}
+
+#searchSect {
+  float: left;
+  margin: 0;
+  margin-left: 20%;
+  overflow: hidden;
+}
+
+#barCustom {
+  font-size: 1em;
+  border-radius: 7px;
+  padding: 2px;
+  border: 2px solid #A6B3C5;
+}
+
+/* CSS Section for footer of page layout */
+#footer {
+  color: white;
+  background-color: #47525E;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#footerContainer {
+  width: 50%;
+}
+
+#footerLeft {
+  display: inline-block;
+}
+
+#linkCol1 {
+  display: inline-block;
+}
+
+#linkCol2 {
+  display: inline-block;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+.column a {
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  color: white;
+}
+.column a:hover {
+  color: #A6B3C5;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+/* CSS Footer sub-section for social media column */
+#blockDesign {
+  background-color: #8190A5;
+  border: 2px solid #8190A5;
+  border-radius: 3px;
+  max-width: 30%;
+}
+
+#socialMediaRow {
+  display: flex;
+}
+#socialMediaRow i {
+  margin-top: 2%;
+  margin-right: 3%;
+}
+
+/* For when the media screen is a smartphone/tablet */
+@media screen and (max-width: 1100px) {
+  /* CSS for navigation menu */
+
+  #navBarLeft {
+    display: none;
+  }
+
+  #searchSect {
+    float: right;
+  }
+
+  #navBarRight {
+    display: none;
+  }
+
+  #menuIcon a.icon {
+    display: block;
+    margin-left: 2%;
+    padding: 5px;
+    float: left;
+  }
+
+  #navBar .icon {
+    color: #008DD9;
+  }
+  #navBar .icon: hover {
+    color: #5FC7FF;
+    transition-duration: 0.5s;
+  }
+
+  .navItem:hover {
+    color: #909AA4;
+    background-color: white;
+    transition-duration: 0.5s;
+  }
+}
+
+/* For if the media screen is on a smartphone */
+@media screen and (max-width: 556px) {
+  /* CSS for navgitation menu */
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  #menuIcon {
+    margin-right: 2%;
+  }
+
+  #navBarLeft {
+    width: 24%;
+  }
+
+  #navBarRight {
+    width: 24%;
+  }
+
+  #barCustom {
+    max-width: 75%;
+    float: left;
+    clear: left;
+  }
+  #searchBtn {
+    float: right;
+    clear: right;
+  }
+
+  #searchSect {
+    margin-left: 2%;
+    margin-top: 1%;
+    max-width: 50%;
+  }
+
+  .topnav.responsive #navBarRight {
+    float: left;
+    clear: left;
+    display: block;
+    margin-left: 8%;
+  }
+  .topnav.responsive #navBarRight a{
+    float: left;
+    clear: left;
+    display: block;
+  }
+  .topnav.responsive #searchSect {
+    float: right;
+    clear: right;
+    display: block;
+  }
+  .topnav.responsive #navBarLeft {
+    float: left;
+    clear: left;
+    display: block;
+    margin-left: 8%;
+  }
+  .topnav.responsive #navBarLeft a {
+    float: left;
+    clear: left;
+    display: block;
+  }
+
+  .navItem {
+    margin-left: 10%;
+    padding-left: 10px;
+  }
+
+  /* CSS for footer section */
+  .column {
+    float: none;
+  }
+
+  #linkCol2 {
+    float: right;
+  }
+
+  #footerContainer {
+    width: 100%;
+  }
+
+  #blockDesign {
+    max-width: 60%;
+  }
+}
+
+/* For when the media screen is a tablet */
+@media screen and (min-width: 557px) and (max-width: 1100px) {
+  /* CSS for navigation menu */
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .topnav.responsive #navBarLeft {
+    display: inline-block;
+    float: left;
+    clear: left;
+    margin-left: 5%;
+  }
+  .topnav.responsive #navBarLeft a{
+    display: inline-block;
+    float: left;
+    clear: left;
+  }
+  .topnav.responsive #searchSect {
+    display: inline-block;
+    float: right;
+  }
+  .topnav.responsive #navBarRight {
+    display: inline-block;
+    float: left;
+    clear: left;
+    margin-left: 5%;
+  }
+  .topnav.responsive #navBarRight a {
+    display: inline-block;
+    float: left;
+    clear: left;
+  }
+
+  /* CSS for footer section */
+  #footerContainer {
+    width: 50%;
+  }
+
+  #blockDesign {
+    max-width: 60%;
+  }
+}
